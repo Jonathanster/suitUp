@@ -1,0 +1,73 @@
+h1
+{
+	color: #0B2161;
+	text-align:center;
+	padding-top:1em;
+	height:2em;
+	width: 22em;
+	background-color:#A4A4A4;
+	border:solid;
+	border-radius:10px;
+}
+
+h2
+{
+	color:#E6E6E6;
+	font-size:1.25em;
+	padding-top:0.5em;
+}
+
+a
+{
+	color:#E6E6E6;
+	font-size:0.8em;
+}
+
+a:hover
+{
+	color:#01A9DB;
+}
+
+
+label
+{
+	color:white;
+	padding-right:100em;
+}
+
+textarea
+{
+	background-color:#D8D8D8;
+	border:thin;
+	border-radius:10px;
+}
+
+input
+{
+	background-color:#D8D8D8;
+	border-radius:5px;
+}
+
+body
+{
+	background-image: url('/~ccit1585/cct460/assets/top.png');
+	background-size:125%;
+	font-family:"helvetica"
+}
+
+.linkbox
+{
+	text-align:center;
+	padding-left:1.25em;
+	padding-top:.75em;
+	height:2em;
+	width: 42em;
+	border:solid;
+	border-radius:10px;
+	background-color:#0B243B;
+}
+
+#break
+{
+	color:white;
+}

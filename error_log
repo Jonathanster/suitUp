@@ -1,0 +1,62 @@
+[23-Jan-2014 17:14:16 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::__contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:14:43 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::__contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:14:44 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::__contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:14:58 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::__contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:14:59 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::__contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:15:00 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::__contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:15:00 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::__contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:15:00 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::__contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:15:00 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::__contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:15:53 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::__contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:15:54 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::__contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:18:42 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::__contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:18:43 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::__contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:19:07 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::__contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:19:08 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::__contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:19:26 America/New_York] PHP Fatal error:  Call to undefined function __contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:19:30 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::__contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:19:52 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::_contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:20:02 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::__contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:21:00 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::__contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[23-Jan-2014 17:23:12 America/New_York] PHP Fatal error:  Call to undefined method CI_Controller::__contruct() in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 5
+[24-Jan-2014 08:52:52 America/New_York] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ccit1585/public_html/cct460/application/views/blog_view.php on line 18
+[30-Jan-2014 15:14:16 America/New_York] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/ccit1585/public_html/cct460/application/views/blog_view.php on line 12
+[30-Jan-2014 15:14:48 America/New_York] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/ccit1585/public_html/cct460/application/views/blog_view.php on line 12
+[30-Jan-2014 15:14:49 America/New_York] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/ccit1585/public_html/cct460/application/views/blog_view.php on line 12
+[30-Jan-2014 16:22:44 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/ccit1585/public_html/cct460/application/controllers/Admin.php on line 16
+[30-Jan-2014 16:33:44 America/New_York] PHP Fatal error:  Call to undefined function helper() in /home/ccit1585/public_html/cct460/application/controllers/Admin.php on line 11
+[30-Jan-2014 16:37:33 America/New_York] PHP Fatal error:  Cannot redeclare Blog_model::getPosts() in /home/ccit1585/public_html/cct460/application/models/blog_model.php on line 8
+[30-Jan-2014 16:37:53 America/New_York] PHP Fatal error:  Call to undefined function helper() in /home/ccit1585/public_html/cct460/application/controllers/Admin.php on line 11
+[30-Jan-2014 16:37:58 America/New_York] PHP Fatal error:  Call to undefined function helper() in /home/ccit1585/public_html/cct460/application/controllers/Admin.php on line 11
+[30-Jan-2014 16:43:28 America/New_York] PHP Fatal error:  Call to undefined function helper() in /home/ccit1585/public_html/cct460/application/controllers/Admin.php on line 11
+[06-Feb-2014 15:29:25 America/New_York] PHP Fatal error:  Call to undefined function helper() in /home/ccit1585/public_html/cct460/application/controllers/Admin.php on line 28
+[06-Feb-2014 15:29:28 America/New_York] PHP Fatal error:  Call to undefined function helper() in /home/ccit1585/public_html/cct460/application/controllers/Admin.php on line 28
+[06-Feb-2014 15:29:32 America/New_York] PHP Fatal error:  Call to undefined function helper() in /home/ccit1585/public_html/cct460/application/controllers/Admin.php on line 28
+[06-Feb-2014 15:42:32 America/New_York] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/ccit1585/public_html/cct460/application/views/admin_update.php on line 19
+[06-Feb-2014 15:42:53 America/New_York] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/ccit1585/public_html/cct460/application/views/admin_update.php on line 19
+[06-Feb-2014 15:42:54 America/New_York] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/ccit1585/public_html/cct460/application/views/admin_update.php on line 19
+[06-Feb-2014 15:48:41 America/New_York] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/ccit1585/public_html/cct460/application/views/admin_update.php on line 19
+[06-Feb-2014 16:08:00 America/New_York] PHP Parse error:  syntax error, unexpected '');' (T_ENCAPSED_AND_WHITESPACE) in /home/ccit1585/public_html/cct460/application/controllers/Admin.php on line 41
+[06-Feb-2014 16:08:26 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::update_post() in /home/ccit1585/public_html/cct460/application/controllers/Admin.php on line 40
+[06-Feb-2014 16:10:45 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::update_post() in /home/ccit1585/public_html/cct460/application/controllers/Admin.php on line 40
+[06-Feb-2014 16:36:28 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/ccit1585/public_html/cct460/application/views/admin_update.php on line 12
+[06-Feb-2014 16:45:54 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/ccit1585/public_html/cct460/application/views/admin_update.php on line 12
+[06-Feb-2014 17:42:11 America/New_York] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/ccit1585/public_html/cct460/application/controllers/Admin.php on line 48
+[06-Feb-2014 17:42:44 America/New_York] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/ccit1585/public_html/cct460/application/controllers/Admin.php on line 48
+[06-Feb-2014 17:42:54 America/New_York] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/ccit1585/public_html/cct460/application/controllers/Admin.php on line 48
+[13-Feb-2014 00:25:58 America/New_York] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/ccit1585/public_html/cct460/application/controllers/Admin.php on line 59
+[13-Feb-2014 00:42:27 America/New_York] PHP Parse error:  syntax error, unexpected '?>' in /home/ccit1585/public_html/cct460/application/views/admin_tags.php on line 12
+[13-Feb-2014 15:43:59 America/New_York] PHP Fatal error:  Call to undefined function form_open() in /home/ccit1585/public_html/cct460/application/views/blog_view.php on line 17
+[13-Feb-2014 15:44:09 America/New_York] PHP Fatal error:  Call to undefined function form_open() in /home/ccit1585/public_html/cct460/application/views/blog_view.php on line 17
+[13-Feb-2014 15:44:28 America/New_York] PHP Fatal error:  Call to undefined function form_open() in /home/ccit1585/public_html/cct460/application/views/blog_view.php on line 17
+[13-Feb-2014 15:45:00 America/New_York] PHP Fatal error:  Call to undefined function form_open() in /home/ccit1585/public_html/cct460/application/views/blog_view.php on line 17
+[13-Feb-2014 15:45:04 America/New_York] PHP Fatal error:  Call to undefined function form_open() in /home/ccit1585/public_html/cct460/application/views/blog_view.php on line 17
+[13-Feb-2014 15:45:10 America/New_York] PHP Fatal error:  Call to undefined function form_open() in /home/ccit1585/public_html/cct460/application/views/blog_view.php on line 17
+[13-Feb-2014 15:45:16 America/New_York] PHP Fatal error:  Call to undefined function form_open() in /home/ccit1585/public_html/cct460/application/views/blog_view.php on line 17
+[13-Feb-2014 15:45:17 America/New_York] PHP Fatal error:  Call to undefined function form_open() in /home/ccit1585/public_html/cct460/application/views/blog_view.php on line 17
+[13-Feb-2014 15:47:31 America/New_York] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 26
+[13-Feb-2014 15:47:35 America/New_York] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ccit1585/public_html/cct460/application/controllers/blog.php on line 26
+[13-Feb-2014 15:47:44 America/New_York] PHP Fatal error:  Call to undefined function form_open() in /home/ccit1585/public_html/cct460/application/views/blog_view.php on line 17
+[13-Feb-2014 15:48:09 America/New_York] PHP Fatal error:  Call to undefined function form_open() in /home/ccit1585/public_html/cct460/application/views/blog_view.php on line 17
+[13-Feb-2014 15:48:09 America/New_York] PHP Fatal error:  Call to undefined function form_open() in /home/ccit1585/public_html/cct460/application/views/blog_view.php on line 17
+[13-Feb-2014 16:07:39 America/New_York] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/ccit1585/public_html/cct460/application/models/blog_model.php on line 19
