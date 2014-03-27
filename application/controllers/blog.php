@@ -12,7 +12,7 @@
 			$data['title'] = "Jonathan Young's Blog";
 			$data['posts'] = $this->blog_model->getPosts();
 			$this->load->view('templates/header_blog', $data);
-			$this->load->view('blog_single_view', $data);
+			$this->load->view('blog_view', $data);
 			$this->load->view('templates/footer_blog', $data);
 		}
 
