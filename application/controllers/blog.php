@@ -13,6 +13,7 @@
 			$data['posts'] = $this->blog_model->getPosts();
 			$this->load->view('templates/header_blog', $data);
 			$this->load->view('blog_single_view', $data);
+			<!--testing123-->
 			$this->load->view('templates/footer_blog', $data);
 		}
 
