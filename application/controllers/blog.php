@@ -9,7 +9,7 @@
 		{
 			$this->load->helper('form');
 
-			$data['title'] = "Jonathan Young's Blog";
+			$data['title'] = "Jonathan Young's Blog1";
 			$data['posts'] = $this->blog_model->getPosts();
 			$this->load->view('templates/header_blog', $data);
 			$this->load->view('blog_single_view', $data);
@@ -29,7 +29,7 @@
 		{
 			$this->load->helper('form');
 
-			$data['title'] = "Jonathan Young's Blog";
+			$data['title'] = "Jonathan Young's Blog1";
 			$data['post'] = $this->blog_model->getPost($id);
 			$data['comments'] = $this->blog_model->get_comments($id);
 			//Save this in the data comments variable WAT!?
