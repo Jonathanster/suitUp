@@ -1,4 +1,3 @@
-
 		<h1><?php echo $title; ?></h1>
 		<?php foreach($posts as $post): ?>
 			
@@ -22,7 +21,7 @@
 	<div class="quickCreate">
 		<?php echo form_open('blog/create') ?>
 		<p ID="QC">
-		Quick Create
+		Quick Create TESTING123
 		</p>
 		<p>
 		<label ID="titlebox1">Title</label>
