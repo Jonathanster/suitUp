@@ -4,7 +4,7 @@
 </head>
 <body>
 
-<FORM METHOD="post" ACTION="https://github.com/Jonathanster/suitUp/blob/master/application/scorequiz.php">
+<FORM METHOD="post" ACTION="http://htmlpreview.github.io/?https://github.com/Jonathanster/suitUp/blob/master/application/scorequiz.php">
 <!--This is where your questions go-->
 
 <p><b>What are you likely to wear to keep you warm when it is chilly out?<BR></b>
