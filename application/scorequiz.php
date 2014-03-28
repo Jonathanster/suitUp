@@ -8,7 +8,7 @@
 <!--This is where your questions go-->
 
 <p><b>What are you likely to wear to keep you warm when it is chilly out?<BR></b>
-<INPUT TYPE="radio" NAME="a" VALUE="">Hoodie.<BR>
+<INPUT TYPE="radio" NAME="a" VALUE="1">Hoodie.<BR>
 <INPUT TYPE="radio" NAME="a" VALUE="2">Cardigan.<BR>
 <INPUT TYPE="radio" NAME="a" VALUE="3">Leather Jacket.<BR>
 <INPUT TYPE="radio" NAME="a" VALUE="4">Blazer.</p>
