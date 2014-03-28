@@ -50,8 +50,13 @@
 </FORM>
 
 <?php
-if (isset($_POST['submit'])){
+if (isset($_POST['submit']))
+{
 echo $radio_value = $_POST["d"]; 
+
+}
+
+?>
 
 </body>
 </html>
