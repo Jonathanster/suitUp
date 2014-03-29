@@ -15,4 +15,15 @@
 			$this->load->view('templates/footer_quiz', $data);
 		}
 
+		function create()
+		{
+			$this->load->helper('form');
+
+			$data['title'] = "Suit Up Quiz";
+			$this->quiz_model->create_profile();
+			$this->load->view('templates/header_quiz', $data);
+			$this->load->view('profile_success_view');
+			$this->load->view('templates/footer_quiz', $data);
+		}
+
 	}
