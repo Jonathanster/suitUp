@@ -18,4 +18,5 @@
 		<textarea name="email"></textarea>
 		</p>
 		<input type="submit" name="submit" value="Create">
+		</form
 	</div>
