@@ -7,6 +7,9 @@
   		$data['age'] = $this->input->post('age');
   		$data['email'] = $this->input->post('email');
   		$data['result'] = $this->input->post('result');
+  		
+  		return $this->db->insert('quizData', $data);
+
   	}
   	
   	//Fix this function, not fully functional
