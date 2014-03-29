@@ -5,6 +5,11 @@
 		<p ID="PC">
 		Create your profile
 		</p>
+		
+		<p>
+		<label ID="id">ID Number</label>
+		<input type="int" name="id">
+		</p>
 		<p>
 		<label ID="name">Name</label>
 		<textarea name="name"></textarea>
