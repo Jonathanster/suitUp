@@ -1,3 +1,5 @@
+<h1><?php echo $title; ?></h1>
+
 	<div class="profileCreate">
 		<?php echo form_open('quiz/create') ?>
 		<p ID="PC">
