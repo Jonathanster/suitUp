@@ -1,7 +1,7 @@
 <h1><?php echo $title; ?></h1>
 
 	<div class="profileCreate">
-		<?php echo form_open('Quiz/create') ?>
+		<?php echo form_open('quiz/create') ?>
 		<p ID="PC">
 		Create your profile
 		</p>
@@ -22,5 +22,4 @@
 		<textarea name="email"></textarea>
 		</p>
 		<input type="submit" name="submit" value="Create">
-		</form>
 	</div>
