@@ -2,7 +2,7 @@
   class Quiz_model extends CI_MODEL{
   	function create_profile()
   	{
-  		//$data['id'] = $this->input->post('id');
+  		$data['id'] = $this->input->post('id');
   		$data['name'] = $this->input->post('name');
   		$data['age'] = $this->input->post('age');
   		$data['email'] = $this->input->post('email');
