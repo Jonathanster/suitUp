@@ -21,8 +21,18 @@
 			$data['title'] = "Suit Up Quiz";
 			$this->quiz_model->create_profile();
 			$this->load->view('templates/header_quiz', $data);
-			$this->load->view('scorequiz');
-			$this->load->view('templates/footer_quiz', $data);
+			$this->load->view('quiz_view');
+			$this->load->view('templates/footer_quiz', $data);		
+		}
+		function answerquiz()
+		{
+			$this->load->helper('form');
+
+			$data['title'] = "Suit Up Quiz!";
+			$this->quiz_model->save_answers();
+			$this->load->view('templates/header_quiz', $data);
+			$this->load->view('quiz_results_view');
+			$this->load->view('templates/footer_quiz', $data);	
 		}
 
 	}
