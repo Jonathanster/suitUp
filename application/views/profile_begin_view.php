@@ -21,6 +21,6 @@
 		<label ID="email">Email</label>
 		<textarea name="email"></textarea>
 		</p>
-		<input type="submit" name="submit" value="create">
+		<input type="submit" name="submit" value="Create">
 		</form
 	</div>
