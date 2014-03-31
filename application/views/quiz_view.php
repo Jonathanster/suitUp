@@ -1,11 +1,8 @@
-<html>
-<head>
-	<title> Suit-Up Style Quiz</title>
-</head>
-<body>
+<?php echo form_open ('quiz/answerquiz') ?>
 
-<FORM METHOD="post" ACTION="http://htmlpreview.github.io/?https://github.com/Jonathanster/suitUp/blob/master/application/scorequiz.php">
-<!--This is where your questions go-->
+<p ID="PC">
+		Find your style!
+		</p>
 
 <p><b>What are you likely to wear to keep you warm when it is chilly out?<BR></b>
 <INPUT TYPE="radio" NAME="a" VALUE="1">Hoodie.<BR>
@@ -46,17 +43,3 @@
 
 
 <INPUT TYPE="submit" name="submit" VALUE="Score Quiz!" >
-<BR><BR>
-</FORM>
-
-<?php
-if (isset($_POST['submit']))
-{
-echo $radio_value = $_POST["d"]; 
-
-}
-
-?>
-
-</body>
-</html>
