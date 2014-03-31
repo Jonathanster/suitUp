@@ -7,12 +7,6 @@
 		</p>
 		
 		<p>
-		<label ID="id">ID Number uhm</label>
-		<input type="int" name="id">
-		</p>
-		<p>
-
-		<p>
 		<label ID="id">ID</label>
 		<input type="int" name="id">
 		</p>
