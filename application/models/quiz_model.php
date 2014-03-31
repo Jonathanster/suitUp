@@ -12,6 +12,11 @@
 
   	}
   	
+  	   function save_answers()
+	  {
+      
+	  }
+  	
   	//Fix this function, not fully functional
   	function search_result()
   	{
