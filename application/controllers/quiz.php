@@ -11,10 +11,9 @@
 
 			$data['title'] = "Suit Up Quiz";
 			$this->load->view('templates/header_quiz', $data);
-			$this->load->view('profile_begin_view', $data);
+			$this->load->view('quiz_begin_view', $data);
 			$this->load->view('templates/footer_quiz', $data);
 		}
-
 		function create()
 		{
 			$this->load->helper('form');
