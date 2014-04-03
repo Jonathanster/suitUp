@@ -29,26 +29,50 @@
 			$this->load->helper('form');
 
 			
+
 			$points = 0;
 			foreach($_POST as $quizanswer) {
 			    $points = $points + $quizanswer;
 			}
 
 			// Now points is the total of all field values.  Let's see where we want to go.
+
+			//Change the quiz_results_view to the results pages
+
 			if ($points < 11) {
 			    $data['title'] = "Suit Up Quiz!";
 				$this->quiz_model->save_answers();
 				$this->load->view('templates/header_quiz', $data);
 				$this->load->view('quiz_results_view');
-				$this->load->view('templates/footer_quiz', $data);	
+				$this->load->view('templates/footer_quiz', $data);
 			} else if ($points <16) {
-			    echo ' jon';
+			    $data['title'] = "Suit Up Quiz!";
+				$this->quiz_model->save_answers();
+				$this->load->view('templates/header_quiz', $data);
+				$this->load->view('quiz_results_view');
+				$this->load->view('templates/footer_quiz', $data);
 			} else if ($points <20) {
-			    echo ' Amy';
+			    $data['title'] = "Suit Up Quiz!";
+				$this->quiz_model->save_answers();
+				$this->load->view('templates/header_quiz', $data);
+				$this->load->view('quiz_results_view');
+				$this->load->view('templates/footer_quiz', $data);
 			} else {
-			    echo ' Hana';
+			    $data['title'] = "Suit Up Quiz!";
+				$this->quiz_model->save_answers();
+				$this->load->view('templates/header_quiz', $data);
+				$this->load->view('quiz_results_view');
+				$this->load->view('templates/footer_quiz', $data);
 			}
 
+
+				//$data['title'] = "Suit Up Quiz!";
+				//$this->quiz_model->save_answers();
+				//$this->load->view('templates/header_quiz', $data);
+				//$this->load->view('quiz_results_view');
+				//$this->load->view('templates/footer_quiz', $data);	
+
+			
 		}
 
 	}
