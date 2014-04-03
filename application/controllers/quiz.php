@@ -36,11 +36,11 @@ foreach($_POST as $quizanswer) {
 }
 
 // Now points is the total of all field values.  Let's see where we want to go.
-if ($points > 6, <11) {
+if ($points > 6) {
     echo 'david';
-} else if ($points > 11, <16) {
+} else if ($points > 11) {
     echo ' jon';
-} else if ($points > 16, <20) {
+} else if ($points > 16) {
     echo ' Amy';
 } else {
     echo ' Hana';
