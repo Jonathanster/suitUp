@@ -11,8 +11,12 @@
   		return $this->db->insert('quizData', $data);
 
   	}
-  	
-  	   function save_answers()
+  	function getResults
+  	{
+  		$query = $this->db->get('quizData');
+  		return $query->result_array()
+  	}
+  	function save_answers()
 	  {
       
 	  }
