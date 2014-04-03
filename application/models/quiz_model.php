@@ -14,7 +14,7 @@
   	function getResults()
   	{
   		$query = $this->db->get('quizData');
-  		return $query->result_array()
+  		return $query->result_array();
   	}
   	function save_answers()
 	  {
