@@ -28,6 +28,25 @@
 		{
 			$this->load->helper('form');
 
+			
+// First, go through all the questions:
+$points = 0;
+foreach($_POST as $quizanswer) {
+    $points = $points + $quizanswer;
+}
+
+// Now points is the total of all field values.  Let's see where we want to go.
+if ($points > 6) {
+    header('http://www.google.com');
+} else if ($points > 11) {
+    header('http://www.yahoo.com');
+} else if ($points > 16) {
+    header('http://www.facebook.com');
+} else {
+    header('http://www.thaiexpress.com');
+}
+
+
 			$data['title'] = "Suit Up Quiz!";
 			$this->quiz_model->save_answers();
 			$this->load->view('templates/header_quiz', $data);
