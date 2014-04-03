@@ -37,21 +37,21 @@ foreach($_POST as $quizanswer) {
 
 // Now points is the total of all field values.  Let's see where we want to go.
 if ($points > 6) {
-    header('http://www.google.com');
+    echo 'david';
 } else if ($points > 11) {
-    header('http://www.yahoo.com');
+    echo ' jon';
 } else if ($points > 16) {
-    header('http://www.facebook.com');
+    echo ' Amy';
 } else {
-    header('http://www.thaiexpress.com');
+    echo ' Hana';
 }
 
 
-			$data['title'] = "Suit Up Quiz!";
-			$this->quiz_model->save_answers();
-			$this->load->view('templates/header_quiz', $data);
-			$this->load->view('quiz_results_view');
-			$this->load->view('templates/footer_quiz', $data);	
+			//$data['title'] = "Suit Up Quiz!";
+			//$this->quiz_model->save_answers();
+			//$this->load->view('templates/header_quiz', $data);
+			//$this->load->view('quiz_results_view');
+			//$this->load->view('templates/footer_quiz', $data);	
 		}
 
 	}
