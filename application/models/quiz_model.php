@@ -11,7 +11,7 @@
   		return $this->db->insert('quizData', $data);
 
   	}
-  	function getResults
+  	function getResults()
   	{
   		$query = $this->db->get('quizData');
   		return $query->result_array()
