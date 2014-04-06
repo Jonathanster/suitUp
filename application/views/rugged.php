@@ -13,10 +13,10 @@
   <p> No one can rival your style-not that anyone would try. Whether you're wearing a structured denim jacket to a meeting or ripped jeans on a date, your look has just as much attitude as you do.</p>
 </div>
 
-  <div id= "list"> 
-<h2> Shop this look: </h2>
+  <div id= "links"> 
+    <h2> Shop this look: </h2>
  
-<div id = "links"> 
+<div id = "list"> 
     <ol>
   <li> <a href="http://levi.com"> Levi's </a> </li>
   <li> <a href="http://www.express.com"> Express </a></li>
