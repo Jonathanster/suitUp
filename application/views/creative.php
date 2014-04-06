@@ -14,10 +14,10 @@
 <p> Who says office attire is boring? You know how to be remembered amongst black suits and button-ups. For you, a big meeting and important date aren't only about dressing to impress—they're about showing off your unique, colorful style and standing out in a crowd.</p>
 </div>
 
-<div id= "list"> 
+<div id= "links"> 
 <h2> Shop this look: </h2>
  
- <div id= "links"> 
+ <div id= "list"> 
   <ol>
  <li> <a href="http://www.asos.com/men/"> Asos Men </a> </li>
  <li> <a href="http://www.colehaan.com/men"> Cole Haan </a></li>
