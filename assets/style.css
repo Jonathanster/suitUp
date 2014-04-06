@@ -1,5 +1,47 @@
+body{
+	background-color: #707864;
+}
 
-h1
-{
-color: red;
+h1 {
+	background-color: #707864;
+	text-align: center;
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 40pt;
+	color: #E6E6E6;
+}
+
+h2{
+	font-family: 'Allerta Stencil', sans-serif;
+	color: #E6E6E6;
+}
+#philosophy {
+	float: left;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 12pt;
+background-color: #A6B89C;
+	border-color: #666666;
+
+}
+
+
+#image {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	border-color: #666666;
+	border-style: dotted;
+	margin-bottom: 15pt;
+
+}
+
+#links{
+	float: right;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #A6B89C;
+	padding-left: 12pt;
+
 }
