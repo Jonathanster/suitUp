@@ -1,0 +1,226 @@
+h1
+{
+	color: #F5FF7C;
+	font-size:5em;
+	text-align:left;
+	height:2em;
+	width: 100%;
+	font-family:"impact";
+	padding-top:20px;
+	padding-left:40px;
+	background-color:#636363;
+	margin-top:-10px;
+	margin-left:-10px;
+	margin-bottom:21px;
+	background-image: url('/~ccit1585/suitUpFP/assets/header.jpg');
+	background-size:100%;
+}
+
+h2
+{
+	color:#E6E6E6;
+	font-size:1.25em;
+	padding-top:20px;
+	margin-left:50px;
+}
+
+a
+{
+	color:#E6E6E6;
+	font-size:0.8em;
+}
+
+a:hover
+{
+	color:#01A9DB;
+}
+
+
+label
+{
+	color:white;
+	padding-right:100em;
+}
+
+textarea
+{
+	background-color:#D8D8D8;
+	border:thin;
+	border-radius:10px;
+}
+
+input
+{
+	background-color:#D8D8D8;
+	border-radius:5px;
+}
+
+body
+{
+	background-image: url('/~ccit1585/suitUpFP/assets/background.jpg');
+	background-size:100%;
+	font-family:"helvetica";
+}
+
+p {
+	color:#ffffff;
+}
+
+
+.content {
+	width:90%;
+	height:100%;
+	float:left;
+	background-color:#707864;
+	margin-left:100px;
+	margin-right:50px;
+	margin-top:-21px;
+	padding-bottom:300px;
+}
+
+.profileCreate
+{
+	width:400px;
+	height:100%;
+	background-color:#C1D74E;
+	border-radius:10px 0 0 10px;
+	margin-left:100px;
+	float:left;
+	padding-left:50px;
+	padding-bottom:50px;
+
+}
+
+
+.about {
+	background-color:#A6B89C;
+	width:61%;
+	height:800px;
+	border-radius:0 10px 10px 10px;
+	margin-left:0px;
+	float:right;
+	margin-right:100px;
+
+
+}
+
+.main {
+	background-color:#707864;
+	width:1700px;
+	height:100%;
+	border-radius:0 0 10px 10px;
+	margin-left:0px;
+	margin-top:-21px;
+	float:right;
+	margin-right:100px;
+
+}
+
+.questions {
+	width:75%;
+	height:100%;
+	float:left;
+	background-color:#A6B89C;
+	margin-left:50%;
+	margin-right:100px;
+	margin-top:0px;
+	border-radius:0 0 10px 10px;
+	padding-left:200px;
+	padding-top: 50px;
+}
+
+
+
+#group {
+	font-family:"helvetica";
+	font-size:1.2em;
+	color:#ffffff;
+	padding-left:50px;
+}
+
+
+
+.PC {
+	background-color:#c7c7c7;
+	color:#ffffff;
+}
+
+
+.linkbox
+{
+	text-align:center;
+	padding-left:1.25em;
+	padding-top:.75em;
+	height:2em;
+	width: 42em;
+	border:solid;
+	border-radius:10px;
+	background-color:#0B243B;
+}
+
+#break
+{
+	color:white;
+}
+
+.postbox {
+
+}
+
+.id {
+
+}
+
+.name {
+
+}
+
+.age {
+
+}
+
+.email {
+
+}
+
+input[type="submit"] {
+	padding:5px;
+  	background-color: #DFE6B4;
+ 	border: 1px solid #666;
+  	color:#000;
+  	text-decoration:none;
+  	margin-top:50px;
+  	margin-bottom:50px;
+}
+
+input[type="submit"]:hover {
+	padding:5px;
+  	background-color: #F5FF7C;
+ 	border: 1px solid #666;
+  	color:#000;
+  	text-decoration:none;
+}
+
+.a {
+
+}
+
+.b {
+
+}
+
+.c {
+
+}
+
+.d {
+
+}
+
+.e {
+
+}
+
+.f {
+
+}
