@@ -24,6 +24,25 @@
 			$this->load->view('quiz_view');
 			$this->load->view('templates/footer_quiz', $data);		
 		}
+		function update($id)
+		{
+			$this->load->helper('form');
+
+			$data['title']="Suit Up Quiz";
+			$data['quiz'] = $this->quiz_model->getQuiz($id);
+			$data['quizs'] = $this->quiz_model->getQuizs();
+			$this->load->view('templates/header_quiz', $data);
+			$this->load->view('quiz_update', $data);
+			$this->load->view('templates/footer_quiz', $data);		
+		}
+		function update_quiz($id)
+		{
+			$this->load->helper('form');
+
+			$data['title'] = "Suit Up Quiz";
+			$this->quiz_model->update_result($id);
+			$this->load->view('quiz_update_success_view', $data);
+		}
 		function answerquiz()
 		{
 			$this->load->helper('form');

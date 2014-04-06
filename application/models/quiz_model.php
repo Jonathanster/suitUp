@@ -6,21 +6,30 @@
   		$data['name'] = $this->input->post('name');
   		$data['age'] = $this->input->post('age');
   		$data['email'] = $this->input->post('email');
-  		//$data['result'] = $this->input->post('result');
+  		$data['result'] = $this->input->post('result');
   		
   		return $this->db->insert('quizData', $data);
 
   	}
-  	function getResults()
-  	{
-  		$query = $this->db->get('quizData');
-  		return $query->result_array();
-  	}
-  	function save_answers()
-	  {
-      
-	  }
-  	
+    function getQuizs()
+    {
+      $query = $this->db->get('quizData');
+      return $query->result_array();
+    }
+    function getQuiz($id)
+    {
+      $query = $this->db->get_where('quizData', array('id' => $id));
+      return $query->result_array();
+    }
+    function update_result($id)
+    {
+      $data['name'] = $this->input->post('name');
+      $data['age'] = $this->input->post('age');
+      $data['email'] = $this->input->post('email');
+      $data['result'] = $this->input->post('result');
+      $this->db->where('id', $id);
+      $this->db->update('quizData', $data);
+    }
   	//Fix this function, not fully functional
   	function search_result()
   	{
