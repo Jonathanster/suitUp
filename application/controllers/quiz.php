@@ -43,30 +43,22 @@
 			    $data['title'] = "Suit Up Quiz!";
 				//$this->quiz_model->save_answers();
 				//$data['post'] = $this->blog_model->getResults();
-				$this->load->view('templates/header_quiz', $data);
 				$this->load->view('casual');
-				$this->load->view('templates/footer_quiz', $data);
 			} else if ($points <16) {
 			    $data['title'] = "Suit Up Quiz!";
 				//$this->quiz_model->save_answers();
 				//$data['post'] = $this->blog_model->getResults();
-				$this->load->view('templates/header_quiz', $data);
 				$this->load->view('creative');
-				$this->load->view('templates/footer_quiz', $data);
 			} else if ($points <20) {
 			    $data['title'] = "Suit Up Quiz!";
 				//$this->quiz_model->save_answers();
 				//$data['post'] = $this->blog_model->getResults();
-				$this->load->view('templates/header_quiz', $data);
 				$this->load->view('rugged');
-				$this->load->view('templates/footer_quiz', $data);
 			} else {
 			    	//$data['title'] = "Suit Up Quiz!";
 				//$this->quiz_model->save_answers();
 				$data['post'] = $this->blog_model->getResults();
-				$this->load->view('templates/header_quiz', $data);
 				$this->load->view('classic');
-				$this->load->view('templates/footer_quiz', $data);
 			}
 
 
