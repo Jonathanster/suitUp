@@ -9,7 +9,8 @@
 <div id="image"> <img src="http://www.itsnotforgirls.com/wp-content/uploads/2012/08/semi-casual-style-men.jpg" alt="The Casual Outfit"></div>
 
 <div id= "philosophy">
-<p> Your style philosophy: You're an on-the-go straight-shooter and everyone can tell by your wardrobe. Sure, you can't imagine wearing something uncomfortable, but that doesn't mean you spend your days in sweats. You know how to make the most of basics to create a look that's structured yet approachable.</p>
+<h2>Your style philosophy: </h2>
+<p> You're an on-the-go straight-shooter and everyone can tell by your wardrobe. Sure, you can't imagine wearing something uncomfortable, but that doesn't mean you spend your days in sweats. You know how to make the most of basics to create a look that's structured yet approachable.</p>
 </div>
 
 <div id ="links">
