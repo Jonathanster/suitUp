@@ -12,7 +12,7 @@ Your Result is: Classic!
 
  <div id = "philosophy">
   <h2>Your style philosophy:</h2>
-    <p> Don' t mess with a good thing. This doesn't mean your look is boring-it means you know what works. Sure, flair is fine once in a while, but you know not to depend on trends when you can make a statement using nothing but sophistication and refinement.</p>
+    <p> Don't mess with a good thing. This doesn't mean your look is boring-it means you know what works. Sure, flair is fine once in a while, but you know not to depend on trends when you can make a statement using nothing but sophistication and refinement.</p>
   </div>
 
 <div id= "links">
