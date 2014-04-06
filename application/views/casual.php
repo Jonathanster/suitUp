@@ -27,6 +27,7 @@
  </div>
  </div>
  
+ <form method="get" action="http://phoenix.sheridanc.on.ca/~ccit1585/suitUpFP/index.php/quiz/create"><button type="submit"> Take Quiz Again </button></form>
   
 
   
