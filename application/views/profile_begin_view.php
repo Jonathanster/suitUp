@@ -1,6 +1,22 @@
-<h1><?php echo $title; ?></h1>
+<h1 id="titleBanner"><?php echo $title; ?></h1>
 
-	<div class="profileCreate">
+
+
+
+<div class="content">
+	<h2>Welcome!</h2>
+
+
+	<div class="container">
+
+
+
+
+
+		
+		<div class="profileCreate">
+
+
 		<?php echo form_open('quiz/create') ?>
 		<p ID="PC">
 		Create your profile
@@ -22,4 +38,18 @@
 		<textarea name="email"></textarea>
 		</p>
 		<input type="submit" name="submit" value="Create">
+
+
 	</div>
+
+		<div class="about">
+		<p ID="group">
+			About the creators:
+		</p>
+		</div>
+
+</div>
+
+
+
+</div>
