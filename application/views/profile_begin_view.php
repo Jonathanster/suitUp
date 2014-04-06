@@ -38,18 +38,20 @@
 		<textarea name="email"></textarea>
 		</p>
 		<input type="submit" name="submit" value="Create">
+			</form>
+
+			<h2> Edit shit</h2>
+
+<!--
+<?php echo form_open('quiz/search_result') ?>
+	<label>TESTING FOR SEARCH AND EDIT PROFILE</label>
+	<input type="int" name="idNum">
+	<input type="submit" name="submit" value="Search">
+</form>
+-->
 
 
-	</div>
 
-		<div class="about">
-		<p ID="group">
-			About the creators:
-		</p>
-		</div>
-
-</div>
-
-
-
-</div>
+<ul>
+		<?php foreach($quizs as $quiz): ?>
+			<li><a href="/~ccit1585/suitUpFP/index.php/quiz/upda
