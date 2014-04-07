@@ -1,9 +1,16 @@
 <?php echo form_open ('quiz/answerquiz') ?>
 
-<p ID="PC">
-		Create your profile
-		</p>
 
+<head>
+<link rel="stylesheet" type="text/css" href="/~ccit1585/suitUpFP/assets/style.css">
+</head>
+
+
+<div id="wrapper">
+	<p ID="PC">
+		Create your profile
+	</p>
+		<p>
 		<label ID="name">Name</label>
 		<input type="text" name="name">
 		</p>
@@ -15,8 +22,7 @@
 		<label ID="email">Email</label>
 		<input type="text" name="email">
 		</p>
-
-<p ID="PC">
+		<p ID="PC">
 		Find your style!
 		</p>
 

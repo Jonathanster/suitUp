@@ -15,7 +15,7 @@
 
 		<?php echo form_open('quiz/create') ?>
 		<h3>Begin your quiz!</h3>
-		<input type="submit" name="submit" value="Create">
+		<input type="submit" name="submit" value="Begin!">
 			</form>
 
 			<p> View Past Results</p>
@@ -28,6 +28,8 @@
 	</div>
 
 		<div class="about">
+<img ID="fashionGuy" src="/~ccit1585/suitUpFP/assets/four.jpg">
+
 		<p ID="group">
 About the website:
 </p>
@@ -40,12 +42,4 @@ About the creators:
 </p>
 <p ID="idk">
 We are a team of four CCIT students studying at UTM. Our inspiration for this project stems from our interest in fashion and clothing. We understand the challenges of not knowing what to wear and where to shop, so we decided to create an online styling website.
-- Jonathan, David, Hana & Amy		</p>
-<img ID="fashionGuy" src="/~ccit1585/suitUpFP/assets/fashionguy.jpg">
-		</div>
-
-</div>
-
-
-
-</div>
+- Jonathan, David, Hana & Amy</p

@@ -1,12 +1,4 @@
-<?php
-if ($_POST) {
-	$name = $_POST['name'];
-	$content = $_POST ['commentcontent'];
-	$handle = fopen ("comments.html", "a");
-	fwrite($handle, "<b>". $name. "</b>:<br/>". $content."<br/>");
-	fclose($handle);
-}
-?>
+
 
 <html>
 <head>
@@ -19,7 +11,7 @@ if ($_POST) {
 
 
 <div id="wrapper">
-	<p>fakslfjasdf</p>
+	<br>
 			<div id="philosophy">
 				<h2>Your style philosophy: </h2>
 				<p> You're an on-the-go straight-shooter and everyone can tell by your wardrobe. Sure, you can't imagine wearing something uncomfortable, but that doesn't mean you spend your days in sweats. You know how to make the most of basics to create a look that's structured yet approachable.</p>
@@ -55,19 +47,12 @@ if ($_POST) {
  
 <div id="image"> <img src="http://www.itsnotforgirls.com/wp-content/uploads/2012/08/semi-casual-style-men.jpg" alt="The Casual Outfit"></div>
 
-<form action = "" method = "POST">
-Comments: <textarea rows = "10" cols = "30" name = "commentcontent"> </textarea> <br/>
-Name: <input type = "text" name = "name"> <br/>
-<input type = "submit" value = "Post!"><br/>
-
-
-</form>
-<?php include "comments.html";?>  
-
   
 </body>
 
 </html>
+
+
 
 
 

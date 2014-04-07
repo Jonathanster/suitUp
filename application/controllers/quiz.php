@@ -16,6 +16,8 @@
 			$this->load->view('templates/footer_quiz', $data);
 		}
 
+
+
 		function create()
 		{
 			$this->load->helper('form');
@@ -72,6 +74,7 @@
   			    $data['title'] = "Suit Up Quiz!";
   				
   				$this->quiz_model->create_profileCL();
+  				$data['quizs'] = $this->quiz_model->getQuizs();
  -				$this->load->view('templates/header_quiz', $data);
   				$this->load->view('classic');
  -				$this->load->view('templates/footer_quiz', $data);
