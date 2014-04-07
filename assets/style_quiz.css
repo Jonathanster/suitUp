@@ -19,9 +19,22 @@ h1
 h2
 {
 	color:#E6E6E6;
-	font-size:1.25em;
+	text-align:left;
+	font-size:1.5em;
 	padding-top:20px;
 	margin-left:50px;
+}
+
+h3
+{
+	color:#FFFFFF;
+	font-size:1em;
+}
+
+h4
+{
+	color:#FFFFFF;
+
 }
 
 a
@@ -66,7 +79,19 @@ p {
 	color:#ffffff;
 }
 
+#extraLink
+{
+	font-size:1.25em;
+	color:#0101DF;
+}
 
+#fashionGuy
+{
+	padding-left: 250px;
+	padding-top:20px;
+	border-radius:50px;
+	height:50%
+}
 .content {
 	width:90%;
 	height:100%;
@@ -102,7 +127,7 @@ p {
 
 .about {
 	background-color:#A6B89C;
-	width:70%;
+	width:60%;
 	height:600px;
 	border-radius:0 10px 10px 10px;
 	margin-left:330px;
@@ -143,10 +168,20 @@ p {
 	font-family:"helvetica";
 	font-size:1.2em;
 	color:#ffffff;
-	padding-left:50px;
+	padding-top:25px;
+	padding-left:25px;
 }
 
+#idk {
+	font-family:"helvetica";
+	font-size:0.9em;
+	color:#ffffff;
+	padding-left:25px;
+}
 
+#footer{
+	color:#0000FF;
+}
 
 .PC {
 	background-color:#c7c7c7;
@@ -205,30 +240,4 @@ input[type="submit"]:hover {
 	padding:5px;
   	background-color: #F5FF7C;
  	border: 1px solid #666;
-  	color:#000;
-  	text-decoration:none;
-}
-
-.a {
-
-}
-
-.b {
-
-}
-
-.c {
-
-}
-
-.d {
-
-}
-
-.e {
-
-}
-
-.f {
-
-}
+  	c
