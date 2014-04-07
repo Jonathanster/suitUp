@@ -78,6 +78,10 @@ body
 p {
 	color:#ffffff;
 }
+#PC{
+	font-size:1.25em;
+	font-weight: bold;
+}
 
 #extraLink
 {
@@ -87,10 +91,8 @@ p {
 
 #fashionGuy
 {
-	padding-left: 250px;
-	padding-top:20px;
-	border-radius:50px;
 	height:50%
+	width:50%;
 }
 .content {
 	width:90%;
@@ -128,7 +130,7 @@ p {
 .about {
 	background-color:#A6B89C;
 	width:60%;
-	height:600px;
+	height:500px;
 	border-radius:0 10px 10px 10px;
 	margin-left:330px;
 	margin-right:0px;
@@ -183,11 +185,6 @@ p {
 	color:#0000FF;
 }
 
-.PC {
-	background-color:#c7c7c7;
-	color:#ffffff;
-}
-
 
 .linkbox
 {
@@ -214,17 +211,7 @@ p {
 
 }
 
-.name {
 
-}
-
-.age {
-
-}
-
-.email {
-
-}
 
 input[type="submit"] {
 	padding:5px;
@@ -240,4 +227,5 @@ input[type="submit"]:hover {
 	padding:5px;
   	background-color: #F5FF7C;
  	border: 1px solid #666;
-  	c
+  	color:#000;
+  	text-decor
