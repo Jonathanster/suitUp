@@ -21,16 +21,15 @@
 
 		<?php echo form_open('quiz/update_quiz/' . $p['id']) ?>
 		<p ID="PC">
-		Create your profile
+		Edit your profile
 		</p>
 		
 		<p>
-		<label ID="id">ID</label>
-		<input type="int" name="id" value="<?php echo $p['id']; ?>">
+		<label ID="id">ID number: <?php echo $p['id']; ?></label>
 		</p>
 		
 		<label ID="name">Name</label>
-		<textarea name="name"><?php echo $p['name']; ?></textarea>
+		<input type="text" name="name" value="<?php echo $p['name']; ?>">
 		</p>
 		<p>
 		<label ID="age">Age</label>
@@ -38,19 +37,31 @@
 		</p>
 		<p>
 		<label ID="email">Email</label>
-		<textarea name="email"><?php echo $p['email']; ?></textarea>
+		<input type="text" name="email" value="<?php echo $p['email']; ?>">
 		</p>
 
 		<p>
 		<label ID="id">Results</label>
-		<input type="int" name="result" value="<?php echo $p['result']; ?>">
+		<a href="http://phoenix.sheridanc.on.ca/~ccit1585/suitUpFP/index.php/quiz/<?php echo $p['result']; ?>"><?php echo $p['result']; ?></a>
 		</p>
 
 		<input type="submit" name="submit" value="Save">
 	</form>
 <?php endforeach; ?>
 
-<h2> Edit shit</h2>
-<ul>
-		<?php foreach($quizs as $quiz): ?>
-			<li><a href="/~ccit158
+
+
+
+	</div>
+
+		<div class="about">
+		<p ID="group">
+			About the creators:
+		</p>
+		</div>
+
+</div>
+
+
+
+</div>

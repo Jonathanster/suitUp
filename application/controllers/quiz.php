@@ -15,17 +15,6 @@
 			$this->load->view('profile_begin_view', $data);
 			$this->load->view('templates/footer_quiz', $data);
 		}
-		/*function create()
-		{
-			$this->load->helper('form');
-
-			$data['title'] = "Suit Up Quiz";
-			$this->quiz_model->create_profile();
-			$this->load->view('templates/header_quiz', $data);
-			$this->load->view('quiz_view');
-			$this->load->view('templates/footer_quiz', $data);		
-		}
-		*/
 
 		function create()
 		{
@@ -38,15 +27,6 @@
 			$this->load->view('templates/footer_quiz', $data);	
 		}
 
-		
-		/*function search_result()
-		{
-			$this->load->helper('form');
-
-			$data['title']="Suit Up Quiz";
-
-		}
-		*/
 		function update($id)
 		{
 			$this->load->helper('form');
@@ -65,11 +45,20 @@
 			$this->quiz_model->update_result($id);
 			$this->load->view('quiz_update_success_view', $data);
 		}
-		function answerquiz()
+
+		function viewPast()
 		{
 			$this->load->helper('form');
 
-			
+			$data['title']="Suit Up Quiz";
+			$this->load->view('templates/header_quiz', $data);
+			$this->load->view('past_result_view', $data);
+			$this->load->view('templates/footer_quiz', $data);		
+		}
+
+		function answerquiz()
+		{
+			$this->load->helper('form');			
 
 			$points = 0;
 			foreach($_POST as $quizanswer) {
@@ -79,49 +68,81 @@
 
 			//Change the quiz_results_view to the results pages
 
-			if ($points < 11) {
-			    $data['title'] = "Suit Up Quiz!";
-
-  				//$this->quiz_model->store_result();
-  				$this->quiz_model->create_profile();
- -				$this->load->view('templates/header_quiz', $data);
-  				$this->load->view('casual');
- -				$this->load->view('templates/footer_quiz', $data);
-
-  			} else if ($points <16) {
+			if ($points >20) {
   			    $data['title'] = "Suit Up Quiz!";
   				
-  				//$this->quiz_model->store_result();
-  				$this->quiz_model->create_profile();
+  				$this->quiz_model->create_profileCL();
  -				$this->load->view('templates/header_quiz', $data);
-  				$this->load->view('creative');
+  				$this->load->view('classic');
  -				$this->load->view('templates/footer_quiz', $data);
-  			} else if ($points <20) {
+			} else if ($points >15) {
   			    $data['title'] = "Suit Up Quiz!";
   				  				
-  				//$this->quiz_model->store_result();
-  				$this->quiz_model->create_profile();
+  				$this->quiz_model->create_profileRU();
  -				$this->load->view('templates/header_quiz', $data);
   				$this->load->view('rugged');
  -				$this->load->view('templates/footer_quiz', $data);
-  			} else {
+  			} else if ($points >10) {
   			    $data['title'] = "Suit Up Quiz!";
   				
-  				//$this->quiz_model->store_result();
-  				$this->quiz_model->create_profile();
+  				$this->quiz_model->create_profileCR();
  -				$this->load->view('templates/header_quiz', $data);
-  				$this->load->view('classic');
+  				$this->load->view('creative');
+ -				$this->load->view('templates/footer_quiz', $data);
+  		 	} else if ($points >0) {
+			    $data['title'] = "Suit Up Quiz!";
+
+  				$this->quiz_model->create_profileCA();
+ -				$this->load->view('templates/header_quiz', $data);
+  				$this->load->view('casual');
+ -				$this->load->view('templates/footer_quiz', $data);
+  			} else {
+  				$data['title'] = "Suit Up Quiz!";
+
+ -				$this->load->view('templates/header_quiz', $data);
+  				$this->load->view('profile_begin_view');
  -				$this->load->view('templates/footer_quiz', $data);
   			}
 
 
-				//$data['title'] = "Suit Up Quiz!";
-				//$this->quiz_model->save_answers();
-				//$this->load->view('templates/header_quiz', $data);
-				//$this->load->view('quiz_results_view');
-				//$this->load->view('templates/footer_quiz', $data);	
-
 			
 		}
+		function Casual()
+		{
+			  	$data['title'] = "Suit Up Quiz!";
+
+ -				$this->load->view('templates/header_quiz', $data);
+  				$this->load->view('casual');
+ -				$this->load->view('templates/footer_quiz', $data);
+		}
+
+		function Creative()
+		{
+			  	$data['title'] = "Suit Up Quiz!";
+
+ -				$this->load->view('templates/header_quiz', $data);
+  				$this->load->view('creative');
+ -				$this->load->view('templates/footer_quiz', $data);
+		}
+
+		function Rugged()
+		{
+			  	$data['title'] = "Suit Up Quiz!";
+
+ -				$this->load->view('templates/header_quiz', $data);
+  				$this->load->view('rugged');
+ -				$this->load->view('templates/footer_quiz', $data);
+		}
+
+		function Classic()
+		{
+			  	$data['title'] = "Suit Up Quiz!";
+
+ -				$this->load->view('templates/header_quiz', $data);
+  				$this->load->view('classic');
+ -				$this->load->view('templates/footer_quiz', $data);
+		}
+
+		
 
 	}

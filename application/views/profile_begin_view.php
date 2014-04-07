@@ -18,7 +18,13 @@
 		<input type="submit" name="submit" value="Create">
 			</form>
 
-			<h2> Edit shit</h2>
+			<h2> View Past Results</h2>
+			<h3>Please enter your ID Number</h3>
+
+				<?php echo form_open('quiz/viewPast') ?>
+				<input type="int" name="idNum">
+				<input type="submit" name="submit" value="Create">
+			</form>
 
 <!--
 <?php echo form_open('quiz/search_result') ?>
