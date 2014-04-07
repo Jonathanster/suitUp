@@ -23,7 +23,7 @@
 
 				<?php echo form_open('quiz/viewPast') ?>
 				<input type="int" name="idNum">
-				<input type="submit" name="submit" value="Create">
+				<input type="submit" name="submit" value="Search">
 				</form>
 	</div>
 
