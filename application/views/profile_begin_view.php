@@ -25,24 +25,6 @@
 				<input type="int" name="idNum">
 				<input type="submit" name="submit" value="Create">
 			</form>
-
-<!--
-<?php echo form_open('quiz/search_result') ?>
-	<label>TESTING FOR SEARCH AND EDIT PROFILE</label>
-	<input type="int" name="idNum">
-	<input type="submit" name="submit" value="Search">
-</form>
--->
-
-
-
-<ul>
-		<?php foreach($quizs as $quiz): ?>
-			<li><a href="/~ccit1585/suitUpFP/index.php/quiz/update/<?php echo $quiz['id']; ?>"><?php echo $quiz['name']; ?></a></li>
-		<?php endforeach; ?>
-
-</ul>
-
 	</div>
 
 		<div class="about">
