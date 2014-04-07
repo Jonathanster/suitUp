@@ -2,15 +2,24 @@
   class Quiz_model extends CI_MODEL{
   	function create_profile()
   	{
-  		$data['id'] = $this->input->post('id');
   		$data['name'] = $this->input->post('name');
   		$data['age'] = $this->input->post('age');
   		$data['email'] = $this->input->post('email');
-  		$data['result'] = $this->input->post('result');
+      $totalValue = $this->input->post('a') + $this->input->post('b') + $this->input->post('c') + $this->input->post('d') + $this->input->post('e') + $this->input->post('f');
+      $data['result'] = $totalValue;
   		
   		return $this->db->insert('quizData', $data);
 
   	}
+    /*function store_result()
+    {
+      $query = $this->db->get('quizData', array('id' => $id));
+      $totalValue = $this->input->post('a') + $this->input->post('b') + $this->input->post('c') + $this->input->post('d') + $this->input->post('e') + $this->input->post('f');
+      $data['result'] = $totalValue;
+
+      return $this->db->insert('quizData', $data);
+
+    }*/
     function getQuizs()
     {
       $query = $this->db->get('quizData');

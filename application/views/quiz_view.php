@@ -1,6 +1,22 @@
 <?php echo form_open ('quiz/answerquiz') ?>
 
 <p ID="PC">
+		Create your profile
+		</p>
+
+		<label ID="name">Name</label>
+		<input type="text" name="name">
+		</p>
+		<p>
+		<label ID="age">Age</label>
+		<input type="int" name="age">
+		</p>
+		<p>
+		<label ID="email">Email</label>
+		<input type="text" name="email">
+		</p>
+
+<p ID="PC">
 		Find your style!
 		</p>
 
@@ -41,5 +57,6 @@
 <INPUT TYPE="radio" NAME="f" VALUE="4"> smart casual. </p>
 
 
-
 <INPUT TYPE="submit" name="submit" VALUE="Score Quiz!" >
+
+</form>

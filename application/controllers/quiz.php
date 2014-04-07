@@ -10,11 +10,12 @@
 			$this->load->helper('form');
 
 			$data['title'] = "Suit Up Quiz";
+			$data['quizs'] = $this->quiz_model->getQuizs();
 			$this->load->view('templates/header_quiz', $data);
 			$this->load->view('profile_begin_view', $data);
 			$this->load->view('templates/footer_quiz', $data);
 		}
-		function create()
+		/*function create()
 		{
 			$this->load->helper('form');
 
@@ -24,13 +25,34 @@
 			$this->load->view('quiz_view');
 			$this->load->view('templates/footer_quiz', $data);		
 		}
+		*/
+
+		function create()
+		{
+			$this->load->helper('form');
+
+
+			$data['title'] = "Suit Up Quiz";
+			$this->load->view('templates/header_quiz', $data);
+			$this->load->view('quiz_view');
+			$this->load->view('templates/footer_quiz', $data);	
+		}
+
+		
+		/*function search_result()
+		{
+			$this->load->helper('form');
+
+			$data['title']="Suit Up Quiz";
+
+		}
+		*/
 		function update($id)
 		{
 			$this->load->helper('form');
 
 			$data['title']="Suit Up Quiz";
 			$data['quiz'] = $this->quiz_model->getQuiz($id);
-			$data['quizs'] = $this->quiz_model->getQuizs();
 			$this->load->view('templates/header_quiz', $data);
 			$this->load->view('quiz_update', $data);
 			$this->load->view('templates/footer_quiz', $data);		
@@ -53,36 +75,40 @@
 			foreach($_POST as $quizanswer) {
 			    $points = $points + $quizanswer;
 			}
-
 			// Now points is the total of all field values.  Let's see where we want to go.
 
 			//Change the quiz_results_view to the results pages
 
 			if ($points < 11) {
 			    $data['title'] = "Suit Up Quiz!";
-  				//$this->quiz_model->save_answers();
-  				//$data['post'] = $this->blog_model->getResults();
+
+  				//$this->quiz_model->store_result();
+  				$this->quiz_model->create_profile();
  -				$this->load->view('templates/header_quiz', $data);
   				$this->load->view('casual');
  -				$this->load->view('templates/footer_quiz', $data);
+
   			} else if ($points <16) {
   			    $data['title'] = "Suit Up Quiz!";
-  				//$this->quiz_model->save_answers();
-  				//$data['post'] = $this->blog_model->getResults();
+  				
+  				//$this->quiz_model->store_result();
+  				$this->quiz_model->create_profile();
  -				$this->load->view('templates/header_quiz', $data);
   				$this->load->view('creative');
  -				$this->load->view('templates/footer_quiz', $data);
   			} else if ($points <20) {
   			    $data['title'] = "Suit Up Quiz!";
-  				//$this->quiz_model->save_answers();
-  				//$data['post'] = $this->blog_model->getResults();
+  				  				
+  				//$this->quiz_model->store_result();
+  				$this->quiz_model->create_profile();
  -				$this->load->view('templates/header_quiz', $data);
   				$this->load->view('rugged');
  -				$this->load->view('templates/footer_quiz', $data);
   			} else {
-  			    	//$data['title'] = "Suit Up Quiz!";
-  				//$this->quiz_model->save_answers();
-  				$data['post'] = $this->blog_model->getResults();
+  			    $data['title'] = "Suit Up Quiz!";
+  				
+  				//$this->quiz_model->store_result();
+  				$this->quiz_model->create_profile();
  -				$this->load->view('templates/header_quiz', $data);
   				$this->load->view('classic');
  -				$this->load->view('templates/footer_quiz', $data);
