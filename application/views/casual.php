@@ -1,3 +1,13 @@
+<?php
+if ($_POST) {
+	$name = $_POST['name'];
+	$content = $_POST ['commentcontent'];
+	$handle = fopen ("comments.html", "a");
+	fwrite($handle, "<b>". $name. "</b>:<br/>". $content."<br/>");
+	fclose($handle);
+}
+?>
+
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="/~ccit1585/suitUpFP/assets/style.css">
@@ -45,9 +55,19 @@
  
 <div id="image"> <img src="http://www.itsnotforgirls.com/wp-content/uploads/2012/08/semi-casual-style-men.jpg" alt="The Casual Outfit"></div>
 
-  
+<form action = "" method = "POST">
+Comments: <textarea rows = "10" cols = "30" name = "commentcontent"> </textarea> <br/>
+Name: <input type = "text" name = "name"> <br/>
+<input type = "submit" value = "Post!"><br/>
+
+
+</form>
+<?php include "comments.html";?>  
 
   
 </body>
 
 </html>
+
+
+
